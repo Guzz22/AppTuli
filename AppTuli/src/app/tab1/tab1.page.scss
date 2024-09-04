@@ -1,20 +1,22 @@
-.text1 {
+.txt1 {
+
 
   padding: 60px;
-
+  top: 10px;
 
 }
 
-.text2{
+.txt2{
   padding: 60px;
+  top: 10px;
 }
 
-.text3{
+.txt3{
   padding: 60px;
 }
 
 .corpo{
-  background-color: aqua;
+  background-color: #D9B1AD;
 }
 
 .txtcentro{
@@ -23,4 +25,8 @@
   align-items: center;
 }
 
-
+.cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
