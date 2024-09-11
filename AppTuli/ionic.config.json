@@ -2,6 +2,7 @@
   "name": "AppTuli",
   "integrations": {
     "capacitor": {}
+    
   },
   "type": "angular"
 }

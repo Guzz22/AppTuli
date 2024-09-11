@@ -1,37 +1,30 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <!--<ion-toolbar>
     <ion-title>
       Logo
     </ion-title>
-  </ion-toolbar>
+  </ion-toolbar> -->
 </ion-header>
 
+<img src="Group 2.svg" alt="">
 <ion-content  class="corpo" [fullscreen]="true">
+
 
     <h1 class="txtcentro"> Cadastro especialista </h1>
 
 
-  <ion-textarea class="txt1"
-  fill="solid"
-  label="Email"
-  labelPlacement="floating"
-  helperText="Enter a valid email"
-  errorText="Invalid email"
-  ngModel
-  email
-></ion-textarea>
+    <ion-textarea class="txt1" label="Email" labelPlacement="floating" fill="outline" placeholder="Coloque email" color="red"></ion-textarea>
 
-<ion-textarea class="txt2"
-  fill="solid"
-  label="Email"
-  labelPlacement="floating"
-  helperText="Enter a valid email"
-  errorText="Invalid email"
-  ngModel
-  email
-></ion-textarea>
+
+    <ion-textarea class="txt2" labelPlacement="stacked" label="Senha" placeholder="Coloque sua senha">
+      <ion-icon slot="start" name="lock-closed" aria-hidden="true"></ion-icon>
+      <ion-button fill="clear" slot="end" aria-label="Show/hide">
+        <ion-icon slot="icon-only" name="eye" aria-hidden="true"></ion-icon>
+      </ion-button>
+    </ion-textarea>
+
 <h6 class="cadastro">Não tem conta? Cadastre-se</h6>
 
-<ion-button>Default</ion-button>
+<ion-button class="botao">Entrar</ion-button>
 
 </ion-content>

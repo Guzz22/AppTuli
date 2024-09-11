@@ -1,32 +1,37 @@
 .txt1 {
-
-
-  padding: 60px;
-  top: 10px;
-
-}
+ padding: 60px;
+ top: 10px;
+ 
+};
 
 .txt2{
   padding: 60px;
   top: 10px;
-}
+};
 
 .txt3{
   padding: 60px;
-}
+};
 
 .corpo{
-  background-color: #D9B1AD;
-}
+  background-color: D9B1AD;
+};
 
 .txtcentro{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+};
 
 .cadastro{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+};
+
+.botao{
+  display: flex; justify-content: center; align-items: center;
+  padding:150px;
+
+};
+
